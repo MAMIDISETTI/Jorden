@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.bs-container {
+  display: flex;
+  justify-content: space-around;
+}
+.hedings {
+  font-size: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.li1 {
+  margin-top: 20px;
+}
+.li {
+  margin-top: 20px;
+}
+.profile {
+  background-color: chocolate;
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  height: 20px;
+  width: 20px;
+
+  text-align: center;
+}
+.visa-card {
+  display: flex;
+  justify-content: space-between;
+}
+.visa-head {
+  font-size: 20px;
+  font-weight: bold;
+}
+.visa-para {
+  background-color: blue;
+  color: #ffff;
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+.visa-container {
+  background-image: linear-gradient(red, blue, #4da386);
+  border-radius: 8px;
+  height: 150px;
+  width: 270px;
+  padding: 15px;
+}
+.vi-head {
+  color: #ffff;
+  font-size: 20px;
+  font-family: 'Italian';
+}
+.vi-para {
+  color: #ffff;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #183b56;
+  margin-bottom: 30px;
+}
+.btn {
+  background-color: indigo;
+  color: #ffff;
+  padding: 25px 10px 25px 10px;
+  font-size: 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
